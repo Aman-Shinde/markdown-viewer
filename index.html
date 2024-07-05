@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Markdown Parser</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+</head>
+<style>
+  /* Base styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0
+  }
+
+  /* Editor and Previewer layout */
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+
+  .home-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    /* Adjust max-width as needed */
+    padding: 20px;
+  }
+
+  .editor-container,
+  .previewer-container {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 48%;
+    /* Initial width for larger screens */
+    margin-bottom: 20px;
+  }
+
+  .editor-header,
+  .previewer-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(40, 44, 52);
+    color: #ffffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .editor-textarea {
+    width: calc(100% - 40px);
+    height: 300px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .previewer-content {
+    padding: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .home-content {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .editor-container,
+    .previewer-container {
+      width: 100%;
+    }
+  }
+</style>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
