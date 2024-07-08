@@ -2,14 +2,13 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Here-green)](https://aman-shinde.github.io/markdown-viewer/)
 
-Markdown Viewer is a web application that allows users to view and render Markdown files directly in their browser. This project leverages modern web technologies to provide a seamless and interactive experience for users to visualize Markdown content.
+Markdown Viewer is a web application that allows users to view and render Markdown directly in their browser. This project leverages modern web technologies to provide a seamless and interactive experience for users to visualize Markdown content.
 
 ## Features
 
 - **Live Markdown Rendering:** Instantly see the rendered HTML as you type your Markdown content.
 - **Syntax Highlighting:** Enhanced code block visibility with syntax highlighting.
 - **Responsive Design:** Works flawlessly on both desktop and mobile devices.
-- **Easy File Import:** Drag and drop your Markdown files or load them via a file input.
 
 ## Technologies Used
 
